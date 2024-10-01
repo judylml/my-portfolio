@@ -111,8 +111,6 @@ const Portfolio = () => {
               </div>
             </a>
           </div>
-
-          {/* Add more projects below */}
         </div>
       </section>
       <br/>

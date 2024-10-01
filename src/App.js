@@ -1,6 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Import Routes instead of Switch
-import NavBar from "./NavBar";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Portfolio from "./Portfolio";
 import EcoPantry from "./EcoPantry";
 import ByteBroom from "./ByteBroom";
