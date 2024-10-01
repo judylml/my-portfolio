@@ -16,7 +16,6 @@ const App = () => {
   return (
     <Router>
       <div>
-        <NavBar />
         <Routes>
           <Route path="/" element={<Portfolio />} />
           <Route path="/ecopantry" element={<EcoPantry />} />
@@ -24,12 +23,8 @@ const App = () => {
           <Route path="/atlas" element={<Atlas />} />
           <Route path="/scarp" element={<Scarp />} />
           <Route path="/resume" element={<Portfolio />} />{" "}
-          {/* Adjust as necessary */}
           <Route path="/playground" element={<Playground />} />{" "}
-          {/* Adjust as necessary */}
           <Route path="/about" element={<About />} />{" "}
-          {/* Adjust as necessary */}
-          {/* Add more routes as needed */}
         </Routes>
       </div>
     </Router>
