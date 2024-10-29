@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import "./EcoPantry.css";
-import NavBar from "./NavBar";
-import Footer from "./Footer";
 import ecoThumbnail from "./images/ecopantry/eco-thumbnail.png";
 import groceryList from "./images/ecopantry/grocery-list.png";
 import recipes from "./images/ecopantry/recipes.png";
@@ -21,7 +19,8 @@ import team from "./images/ecopantry/team.png";
 
 const EcoPantry = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true }); // Initialize AOS with a 1 second animation duration
+    AOS.init({ duration: 1000, once: true });
+    window.scrollTo(0, 0);
   }, []);
 
   const features = [
@@ -56,7 +55,6 @@ const EcoPantry = () => {
       image: communities,
     },
   ];
-  <NavBar />
   return (
     <div className="page-container">
       <div className="content-container">
@@ -355,7 +353,6 @@ const EcoPantry = () => {
             <img src={team} alt="Team" />
           </div>
         </section>
-        <Footer />
       </div>
     </div>
   );

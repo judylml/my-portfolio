@@ -18,7 +18,6 @@ const Playground = () => {
         <img src={p4} alt="Comic 4" />
         <img src={p5} alt="Comic 5" />
       </div>
-      <Footer />
     </div>
   );
 };

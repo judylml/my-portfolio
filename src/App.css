@@ -39,7 +39,8 @@ body {
 }
 
 .intro-pic {
-  width: 420px;
+  width:100%;
+  max-width: 420px;
   height: auto;
 }
 
@@ -47,7 +48,6 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
-  align-items: center;
 }
 
 .intro-tags {
@@ -69,9 +69,9 @@ body {
 }
 
 .project-header {
-  font-size: 13px; 
-  text-transform: uppercase; 
-  letter-spacing: 1px; 
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 @keyframes planeMove {
@@ -92,7 +92,7 @@ body {
 .work-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two items per row */
-  gap: 32px;
+  gap: 48px;
   margin-top: 24px;
 }
 
@@ -111,10 +111,8 @@ body {
   text-decoration: none;
   color: #333;
   position: relative;
-  cursor: url('./images/homepage/cursor.png'), auto; 
+  cursor: url("./images/homepage/cursor.png"), auto;
 }
-
-
 
 .work-image {
   width: 100%;
@@ -146,34 +144,55 @@ body {
 
 /* Responsive design */
 @media (max-width: 768px) {
-  .portfolio-container {
-    padding: 24px;
-  }
-
   .intro-content {
+    padding-top: 50px; 
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .intro-tags {
-    text-align: left;
-    margin: 20px 0;
+  .intro-text h1 {
+    font-size: 2rem; 
   }
 
-  .intro-pic {
-    margin-top: 20px;
-    align-items: center;
+  .bigger-text,
+  .text {
+    font-size: 1rem;
   }
 
-  .separator {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    align-items: center;
-  }
-
-  /* For smaller screens, stack items vertically */
   .work-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; 
+  }
+
+  .work-tags {
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+
+  .work-image {
+    max-width: 100%; 
+  }
+}
+
+@media (max-width: 480px) {
+   .intro-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .intro-text h1 {
+    font-size: 1.5rem; 
+  }
+
+  .bigger-text,
+  .text {
+    font-size: 0.9rem; 
+  }
+
+  .work-details h3 {
+    font-size: 1rem;
+  }
+
+  .work-tags span {
+    font-size: 0.8rem; 
+    padding: 4px 8px;
   }
 }

@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import "./EcoPantry.css";
-import Footer from "./Footer";
 import byteBroom from "./images/bytebroom/bytebroom.png";
 import affinity from "./images/bytebroom/affinity.png";
 import lo_fi from "./images/bytebroom/lo-fi.png";
@@ -14,9 +13,10 @@ import main_effects from "./images/bytebroom/main-effects.png";
 import sus from "./images/bytebroom/sus.png";
 
 const ByteBroom = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000, once: true }); // Initialize AOS with a 1 second animation duration
-  }, []);
+   useEffect(() => {
+     AOS.init({ duration: 1000, once: true }); 
+     window.scrollTo(0, 0); 
+   }, []);
 
   // const features = [
   //   {
@@ -211,7 +211,6 @@ const ByteBroom = () => {
               digital storage management styles.
             </li>
           </ul>
-          {/* <br /> */}
           <h3>Study Protocol</h3>
           <p>
             Our protocol included both <strong>quantitative</strong> and{" "}
@@ -610,7 +609,6 @@ const ByteBroom = () => {
             in real-world scenarios.
           </p>
         </section>
-        <Footer />
       </div>
     </div>
   );

@@ -124,7 +124,6 @@ const About = () => {
         </div>
       </Slider>
       <br />
-      <Footer />
     </div>
   );
 };

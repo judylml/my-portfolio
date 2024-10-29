@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import "./EcoPantry.css";
-import Footer from "./Footer";
 import scarp_thumbnail from "./images/scarp/scarp-thumbnail.png";
 import stats from "./images/scarp/stats.png";
 import problems from "./images/scarp/problems.png";
@@ -16,9 +15,10 @@ import f1 from "./images/scarp/f1.png";
 
 
 const Scarp = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000, once: true }); 
-}, []);
+    useEffect(() => {
+      AOS.init({ duration: 1000, once: true }); 
+      window.scrollTo(0, 0); 
+    }, []);
     
   return (
     <div className="page-container">
@@ -200,7 +200,6 @@ const Scarp = () => {
         In conclusion, this experience was valuable in shaping my approach to future design projects, emphasizing a holistic understanding of <strong>user needs</strong> and the <strong>technical landscape</strong> in which the solutions are deployed.
       </p>
             </section>
-            <Footer/>
         </div>
     </div>
   );
