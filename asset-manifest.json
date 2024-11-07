@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.3deac8fb.css",
-    "main.js": "/my-portfolio/static/js/main.2ef0d470.js",
+    "main.css": "/my-portfolio/static/css/main.6b57c770.css",
+    "main.js": "/my-portfolio/static/js/main.47ba1f19.js",
     "static/media/up2.png": "/my-portfolio/static/media/up2.ff5270b9caa67ad22d78.png",
     "static/media/hi-fi.png": "/my-portfolio/static/media/hi-fi.b69941a0375b85ffedbe.png",
+    "static/media/img-transformed.jpeg": "/my-portfolio/static/media/img-transformed.f6dd9b48a64536cc3c12.jpeg",
     "static/media/affinity.png": "/my-portfolio/static/media/affinity.a9858825decf718b1fa6.png",
     "static/media/up1.png": "/my-portfolio/static/media/up1.ec5966aff3577e08f53a.png",
     "static/media/team.png": "/my-portfolio/static/media/team.f49c2cffc515f52a99fe.png",
@@ -44,7 +45,6 @@
     "static/media/m8.jpg": "/my-portfolio/static/media/m8.0203915d193567b0a340.jpg",
     "static/media/atlas.png": "/my-portfolio/static/media/atlas.6bfb6e0f8630eeebd52a.png",
     "static/media/scarp.png": "/my-portfolio/static/media/scarp.309cff44aa947b132afb.png",
-    "static/media/profile.png": "/my-portfolio/static/media/profile.c4feb4deffe7f4492291.png",
     "static/media/m9.jpeg": "/my-portfolio/static/media/m9.8275ff782166553b20d9.jpeg",
     "static/media/pantry.png": "/my-portfolio/static/media/pantry.667a5994c2b3bd3192fb.png",
     "static/media/research-questions.png": "/my-portfolio/static/media/research-questions.8baa3a30ed95ef1b1cf4.png",
@@ -60,11 +60,11 @@
     "static/media/slick.ttf": "/my-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/my-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/my-portfolio/index.html",
-    "main.3deac8fb.css.map": "/my-portfolio/static/css/main.3deac8fb.css.map",
-    "main.2ef0d470.js.map": "/my-portfolio/static/js/main.2ef0d470.js.map"
+    "main.6b57c770.css.map": "/my-portfolio/static/css/main.6b57c770.css.map",
+    "main.47ba1f19.js.map": "/my-portfolio/static/js/main.47ba1f19.js.map"
   },
   "entrypoints": [
-    "static/css/main.3deac8fb.css",
-    "static/js/main.2ef0d470.js"
+    "static/css/main.6b57c770.css",
+    "static/js/main.47ba1f19.js"
   ]
 }
