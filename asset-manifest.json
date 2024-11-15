@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.ec8374f0.css",
-    "main.js": "/my-portfolio/static/js/main.6e62a8d4.js",
+    "main.js": "/my-portfolio/static/js/main.f0f2a805.js",
     "static/media/up2.png": "/my-portfolio/static/media/up2.ff5270b9caa67ad22d78.png",
     "static/media/hi-fi.png": "/my-portfolio/static/media/hi-fi.b69941a0375b85ffedbe.png",
     "static/media/affinity.png": "/my-portfolio/static/media/affinity.a9858825decf718b1fa6.png",
@@ -28,6 +28,7 @@
     "static/media/error-count.png": "/my-portfolio/static/media/error-count.17447e4b52f073c8d823.png",
     "static/media/time.png": "/my-portfolio/static/media/time.bf386bf3be38c54d9341.png",
     "static/media/eco.png": "/my-portfolio/static/media/eco.f8b5efdb8afdf04e2e50.png",
+    "static/media/articles.png": "/my-portfolio/static/media/articles.de2c263703948129a626.png",
     "static/media/eco-thumbnail.png": "/my-portfolio/static/media/eco-thumbnail.5977d179adf7810b05d3.png",
     "static/media/flow.png": "/my-portfolio/static/media/flow.c0031208c9480d7e5959.png",
     "static/media/donate-rescue.png": "/my-portfolio/static/media/donate-rescue.795fc0e78a29fd0995ca.png",
@@ -37,8 +38,10 @@
     "static/media/d2.png": "/my-portfolio/static/media/d2.581cb7a7cc3aadb6f3e8.png",
     "static/media/communities.png": "/my-portfolio/static/media/communities.c730c4c6a6ba980d48ca.png",
     "static/media/scarp-thumbnail.png": "/my-portfolio/static/media/scarp-thumbnail.9254eacd2c9b475806d3.png",
-    "static/media/bytebroom.png": "/my-portfolio/static/media/bytebroom.d7dc44b0c074b283f49d.png",
+    "static/media/cleanup.png": "/my-portfolio/static/media/cleanup.2c674dae5be6dbd68127.png",
+    "static/media/dashboard.png": "/my-portfolio/static/media/dashboard.e0109808aa3f99f24eff.png",
     "static/media/m1.jpeg": "/my-portfolio/static/media/m1.11e4cefd729480b9540b.jpeg",
+    "static/media/reminders.png": "/my-portfolio/static/media/reminders.4bf865a376f8bf49b3ea.png",
     "static/media/judy.png": "/my-portfolio/static/media/judy.04b4109e605d72186b6e.png",
     "static/media/d3.png": "/my-portfolio/static/media/d3.36987e76d4b3487416f1.png",
     "static/media/recipes.png": "/my-portfolio/static/media/recipes.5daf6496dcec3cf8330a.png",
@@ -61,10 +64,10 @@
     "static/media/slick.woff": "/my-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/my-portfolio/index.html",
     "main.ec8374f0.css.map": "/my-portfolio/static/css/main.ec8374f0.css.map",
-    "main.6e62a8d4.js.map": "/my-portfolio/static/js/main.6e62a8d4.js.map"
+    "main.f0f2a805.js.map": "/my-portfolio/static/js/main.f0f2a805.js.map"
   },
   "entrypoints": [
     "static/css/main.ec8374f0.css",
-    "static/js/main.6e62a8d4.js"
+    "static/js/main.f0f2a805.js"
   ]
 }
